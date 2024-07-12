@@ -7,6 +7,7 @@ This project implements sentiment analysis using Long Short-Term Memory (LSTM) n
 2. **Testing the Model:** A separate Jupyter notebook that uses the trained model to predict sentiment on new input data.
 
 ## Project Structure
+<<<<<<< HEAD
 
 ` ``` `
 Sentiment-Analysis-LSTM/
@@ -37,3 +38,17 @@ You can install the required packages using the following command:
 
 ```bash
 pip install tensorflow keras numpy pandas matplotlib jupyter
+=======
+Sentiment-Analysis-LSTM/
+\```
+├── .ipynb_checkpoints # Checkpoint directory for Jupyter notebooks
+├── .gitignore # Git ignore file
+├── label_encoder.pkl # Label encoder saved model
+├── LICENSE # License file
+├── Model_bulding.ipynb # Jupyter notebook for training the LSTM model
+├── README.md # Project README file
+├── sentiment_analysis_lstm_model.h5 # Saved LSTM model
+├── test.ipynb # Jupyter notebook for testing the model with new inputs
+└── tokenizer.pkl # Tokenizer saved model
+\```
+>>>>>>> f8c514b2fccf3a334c97801ba12e0d4b50ea4ab3
