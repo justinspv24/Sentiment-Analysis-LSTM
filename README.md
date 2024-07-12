@@ -8,6 +8,7 @@ This project implements sentiment analysis using Long Short-Term Memory (LSTM) n
 
 ## Project Structure
 Sentiment-Analysis-LSTM/
+\```
 ├── .ipynb_checkpoints # Checkpoint directory for Jupyter notebooks
 ├── .gitignore # Git ignore file
 ├── label_encoder.pkl # Label encoder saved model
@@ -17,3 +18,4 @@ Sentiment-Analysis-LSTM/
 ├── sentiment_analysis_lstm_model.h5 # Saved LSTM model
 ├── test.ipynb # Jupyter notebook for testing the model with new inputs
 └── tokenizer.pkl # Tokenizer saved model
+\```
